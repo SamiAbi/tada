@@ -16,7 +16,7 @@ This repository hosts releases of Tada. The app is built with Tauri and Rust.
 ## Install
 
 1. Open `Tada.dmg` and drag **Tada** into **Applications**.
-2. First launch: right-click Tada.app → **Open** → **Open** (the app isn't notarized yet), or run:
+2. First launch: macOS will say *"Tada is damaged and can't be opened"* — it isn't. That's Gatekeeper flagging an app that isn't notarized by Apple yet. Run this once, then open Tada normally:
    ```sh
    xattr -cr /Applications/Tada.app
    ```
