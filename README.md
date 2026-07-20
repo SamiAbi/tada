@@ -7,19 +7,15 @@ Terminal first, workspaces like VS Code, git &amp; PRs built in — one fast nat
 
 ---
 
-## Download
-
-**[⬇ Download Tada for macOS](https://github.com/SamiAbi/tada/releases/latest/download/Tada.dmg)** (Apple Silicon)
-
-This repository hosts releases of Tada. The app is built with Tauri and Rust.
-
 ## Install
 
-1. Open `Tada.dmg` and drag **Tada** into **Applications**.
-2. First launch: macOS will say *"Tada is damaged and can't be opened"* — it isn't. That's Gatekeeper flagging an app that isn't notarized by Apple yet. Run this once, then open Tada normally:
-   ```sh
-   xattr -cr /Applications/Tada.app
-   ```
+```sh
+brew install --cask samiabi/tada/tada
+```
+
+Or download **[Tada.dmg](https://github.com/SamiAbi/tada/releases/latest/download/Tada.dmg)** (Apple Silicon) and drag Tada into Applications.
+
+Signed & notarized by Apple — no security warnings, just open it.
 
 ## Make the terminal beautiful (optional)
 
